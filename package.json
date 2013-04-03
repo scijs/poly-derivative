@@ -1,0 +1,31 @@
+{
+  "name": "poly-derivative",
+  "version": "0.0.0",
+  "description": "Differentiates polynomial",
+  "main": "diff.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "~0.4.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/poly-derivative.git"
+  },
+  "keywords": [
+    "polynomial",
+    "derivative",
+    "calculus",
+    "algebra",
+    "math"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "d6caf5a4c54a1de7277b6aa8df2cda28552e0b2f"
+}

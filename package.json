@@ -1,6 +1,6 @@
 {
   "name": "poly-derivative",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Differentiates polynomial",
   "main": "diff.js",
   "directories": {
@@ -8,16 +8,17 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "tap": "~0.4.1"
+    "tape": "^4.0.0"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mikolalysenko/poly-derivative.git"
+    "url": "git://github.com/scijs/poly-derivative.git"
   },
   "keywords": [
+    "scijs",
     "polynomial",
     "derivative",
     "calculus",
@@ -27,5 +28,8 @@
   "author": "Mikola Lysenko",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "d6caf5a4c54a1de7277b6aa8df2cda28552e0b2f"
+  "gitHead": "d6caf5a4c54a1de7277b6aa8df2cda28552e0b2f",
+  "bugs": {
+    "url": "https://github.com/scijs/poly-derivative/issues"
+  }
 }
